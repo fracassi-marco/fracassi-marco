@@ -1,0 +1,49 @@
+<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgWalk" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1c3a20"/>
+      <stop offset="45%" stop-color="#2c5530"/>
+      <stop offset="100%" stop-color="#228b22"/>
+    </linearGradient>
+    <linearGradient id="sunGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7931e"/>
+      <stop offset="100%" stop-color="#ff6b35"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="220" rx="18" fill="url(#bgWalk)"/>
+  <rect x="1" y="1" width="898" height="218" rx="17" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+
+  <!-- mountains silhouette -->
+  <path d="M0,220 L110,130 L190,185 L290,105 L400,220 Z" fill="#1c3a20" opacity="0.55"/>
+  <path d="M300,220 L430,120 L520,180 L640,90 L780,220 Z" fill="#16301b" opacity="0.6"/>
+
+  <!-- sun -->
+  <circle cx="800" cy="55" r="26" fill="url(#sunGrad)" opacity="0.95"/>
+
+  <!-- winding path -->
+  <path d="M40,195 C150,195 150,150 240,140 C330,130 330,175 420,175 C510,175 510,120 600,110 C670,102 720,115 800,90"
+        fill="none" stroke="#ffffff" stroke-opacity="0.4" stroke-width="9" stroke-linecap="round" stroke-dasharray="2 20"/>
+
+  <!-- footprints following the path -->
+  <g fill="#ff6b35" opacity="0.95">
+    <ellipse cx="70" cy="188" rx="6" ry="10" transform="rotate(-8 70 188)"/>
+    <ellipse cx="100" cy="183" rx="6" ry="10" transform="rotate(-4 100 183)"/>
+    <ellipse cx="200" cy="155" rx="6" ry="10" transform="rotate(-25 200 155)"/>
+    <ellipse cx="235" cy="142" rx="6" ry="10" transform="rotate(-20 235 142)"/>
+    <ellipse cx="330" cy="132" rx="6" ry="10" transform="rotate(8 330 132)"/>
+    <ellipse cx="400" cy="168" rx="6" ry="10" transform="rotate(30 400 168)"/>
+    <ellipse cx="500" cy="177" rx="6" ry="10" transform="rotate(4 500 177)"/>
+    <ellipse cx="590" cy="120" rx="6" ry="10" transform="rotate(-28 590 120)"/>
+    <ellipse cx="670" cy="102" rx="6" ry="10" transform="rotate(-18 670 102)"/>
+    <ellipse cx="760" cy="95" rx="6" ry="10" transform="rotate(-10 760 95)"/>
+  </g>
+
+  <!-- text -->
+  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="60" y="55" font-size="38" font-weight="800" fill="#ffffff">PassoLento</text>
+    <text x="60" y="83" font-size="16" font-weight="600" fill="#ffe0b3" font-style="italic">"Riscopri te stesso attraverso il cammino lento"</text>
+    <text x="60" y="108" font-size="13" fill="#dff5df" opacity="0.9">Guida Hiking nelle Dolomiti, per un camminare consapevole</text>
+    <text x="60" y="130" font-size="12" fill="#c9e6c9" opacity="0.8">passolento.com</text>
+  </g>
+</svg>
