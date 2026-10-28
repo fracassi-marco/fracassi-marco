@@ -1,0 +1,42 @@
+<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgBasket" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#101c35"/>
+      <stop offset="58%" stop-color="#172b4c"/>
+      <stop offset="100%" stop-color="#263c5c"/>
+    </linearGradient>
+    <linearGradient id="ballGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffb347"/>
+      <stop offset="100%" stop-color="#f26b38"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="220" rx="18" fill="url(#bgBasket)"/>
+  <rect x="1" y="1" width="898" height="218" rx="17" fill="none" stroke="#ffffff" stroke-opacity="0.09"/>
+
+  <g fill="#ffd27d" opacity="0.65">
+    <circle cx="650" cy="36" r="3"/>
+    <circle cx="700" cy="24" r="2"/>
+    <circle cx="740" cy="47" r="2.5"/>
+    <circle cx="820" cy="25" r="3"/>
+    <circle cx="865" cy="61" r="2"/>
+  </g>
+  <path d="M520 220 635 98l75 122M680 220l110-145 110 145" fill="none" stroke="#89a6d0" stroke-opacity="0.16" stroke-width="2"/>
+  <path d="M590 175h310M635 130h265" stroke="#89a6d0" stroke-opacity="0.11" stroke-width="2"/>
+
+  <g transform="translate(763 112)">
+    <circle r="66" fill="url(#ballGrad)"/>
+    <circle r="65" fill="none" stroke="#241c24" stroke-width="4"/>
+    <path d="M-65 0h130M0-65v130M-46-46c34 22 58 70 46 111M46-46C12-24-12 24 0 65" fill="none" stroke="#241c24" stroke-width="4"/>
+    <path d="M-65 0h130" fill="none" stroke="#241c24" stroke-width="4"/>
+  </g>
+  <path d="M651 182h212" stroke="#ff9a51" stroke-opacity="0.48" stroke-width="3" stroke-linecap="round"/>
+
+  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="60" y="77" font-size="40" font-weight="800" fill="#ffffff">Palla a Due</text>
+    <text x="60" y="108" font-size="19" font-weight="700" fill="#ffae62">Tutto il basket, in tasca.</text>
+    <text x="60" y="140" font-size="14" fill="#d5e0f0">Classifiche, partite, roster e statistiche: dai campionati italiani</text>
+    <text x="60" y="161" font-size="14" fill="#d5e0f0">a EuroLeague, NBA e WNBA. Veloce, anche offline.</text>
+    <text x="60" y="190" font-size="12" fill="#9fb4d2">fracassi-marco.github.io/palla-a-due</text>
+  </g>
+</svg>

@@ -40,3 +40,45 @@ Here are some ideas to get you started:
   <br/>
   <a href="https://passolento.com/">🔗 passolento.com</a>
 </p>
+
+<br/>
+
+<a href="https://fracassi-marco.github.io/palla-a-due/">
+  <img src="assets/palla-a-due-banner.svg" alt="Palla a Due banner" width="100%"/>
+</a>
+
+<p>
+  <a href="https://fracassi-marco.github.io/palla-a-due/"><b>Palla a Due</b></a> — <i>"Tutto il basket, in tasca."</i>
+  <br/>
+  Classifiche, partite, roster e statistiche di basket, anche offline.
+  <br/>
+  <a href="https://fracassi-marco.github.io/palla-a-due/">🔗 fracassi-marco.github.io/palla-a-due</a>
+</p>
+
+<br/>
+
+<a href="https://nordic-walking.it/">
+  <img src="assets/nordic-walking-banner.svg" alt="Nordic Walking banner" width="100%"/>
+</a>
+
+<p>
+  <a href="https://nordic-walking.it/"><b>Nordic Walking</b></a> — <i>"Gratis, libero, per tutti."</i>
+  <br/>
+  Itinerari, associazioni, istruttori certificati ed eventi in tutta Italia.
+  <br/>
+  <a href="https://nordic-walking.it/">🔗 nordic-walking.it</a>
+</p>
+
+<br/>
+
+<a href="https://github.com/fracassi-marco/study-path">
+  <img src="assets/study-path-banner.svg" alt="Study Path banner" width="100%"/>
+</a>
+
+<p>
+  <a href="https://github.com/fracassi-marco/study-path"><b>Study Path</b></a> — <i>"A curated path to better software."</i>
+  <br/>
+  A collection of books, articles, talks and mind maps on software design, TDD and refactoring.
+  <br/>
+  <a href="https://github.com/fracassi-marco/study-path">🔗 github.com/fracassi-marco/study-path</a>
+</p>
